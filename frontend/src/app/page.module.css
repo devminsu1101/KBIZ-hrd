@@ -2,3 +2,19 @@
 .title {
   font-family: var(--font-nanum-eb);
 }
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.mythings {
+  display: flex;
+  flex-direction: row;
+  
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/uis/Header";
+import Footer from "@/uis/Footer";
 
 export const metadata: Metadata = {
   title: "Clone KBIZhrd",
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer /> 
       </body>
     </html>
   );

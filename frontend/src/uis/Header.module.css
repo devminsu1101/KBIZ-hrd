@@ -3,10 +3,16 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--foreground);
 }
 
 .left {
   display: flex;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
 }
 
 .right {
