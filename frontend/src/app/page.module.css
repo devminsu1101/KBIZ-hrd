@@ -1,20 +1,29 @@
 
-.title {
-  font-family: var(--font-nanum-eb);
+.carousels {
+  height: 10rem;
+  display: flex;
+  align-items: center;
 }
 
 .details {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .icons {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .mythings {
   display: flex;
   flex-direction: row;
-  
+  justify-content: space-between;
+}
+
+.notices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
